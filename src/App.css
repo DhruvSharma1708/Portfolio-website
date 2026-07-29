@@ -18,7 +18,7 @@ section {
   align-items: center;
   justify-content: space-between;
 
-  background: rgba(10, 25, 47, 0.96);
+  background: rgba(0, 13, 25, 0.839);
   backdrop-filter: blur(10px);
 
   z-index: 1000;
