@@ -39,3 +39,6 @@ The source code is maintained on GitHub and connected to Netlify for continuous 
 ```bash
 npm install
 npm run dev
+
+
+<img width="1413" height="794" alt="Screenshot 2026-07-30 at 12 40 22 AM" src="https://github.com/user-attachments/assets/c6440681-cd85-41cd-8996-0d7973d69dca" />
