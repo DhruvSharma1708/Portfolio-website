@@ -333,7 +333,6 @@ const handleHeroMouseLeave = (e) => {
   <div className="section-container">
 
     <div className="section-heading">
-      <span>01.</span>
       <h2>About Me</h2>
       <div className="heading-line"></div>
     </div>
@@ -406,7 +405,6 @@ const handleHeroMouseLeave = (e) => {
     <div className="section-container">
 
     <div className="section-heading">
-      <span>02.</span>
       <h2>Where I've Worked</h2>
       <div className="heading-line"></div>
     </div>
@@ -467,7 +465,6 @@ const handleHeroMouseLeave = (e) => {
     <div className="section-container">
 
     <div className="section-heading">
-      <span>03.</span>
       <h2>Skills & Technologies</h2>
       <div className="heading-line"></div>
     </div>
@@ -579,7 +576,6 @@ const handleHeroMouseLeave = (e) => {
   <div className="section-container">
 
     <div className="section-heading">
-      <span>04.</span>
       <h2>Featured Projects</h2>
       <div className="heading-line"></div>
     </div>
@@ -846,7 +842,6 @@ const handleHeroMouseLeave = (e) => {
     <div className="section-container">
 
     <div className="section-heading">
-      <span>05.</span>
       <h2>Certifications</h2>
       <div className="heading-line"></div>
     </div>
@@ -1099,7 +1094,7 @@ const handleHeroMouseLeave = (e) => {
 <section id="contact" className="contact-section reveal">
     <div className="contact-container">
 
-    <p className="contact-number">06. What's Next?</p>
+    <p className="contact-number">What's Next?</p>
 
     <h2>Get In Touch</h2>
 
