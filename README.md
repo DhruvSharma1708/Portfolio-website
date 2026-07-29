@@ -17,7 +17,6 @@ The portfolio highlights my hands-on work with AWS infrastructure, CI/CD, contai
 ## Tech Stack
 
 **Frontend:** React, Vite, JavaScript, CSS  
-**Cloud & DevOps:** AWS, Docker, Kubernetes, Terraform, Jenkins, Ansible  
 **Observability:** Prometheus, Grafana  
 **Deployment:** GitHub + Netlify
 
