@@ -1,5 +1,8 @@
 # Dhruv Sharma — DevOps & Cloud Portfolio
 
+<img width="1413" height="794" alt="Screenshot 2026-07-30 at 12 40 22 AM" src="https://github.com/user-attachments/assets/48d46516-786e-4dad-9cc6-379064e8a267" />
+
+
 A personal portfolio website showcasing my experience, projects, technical skills, and certifications as a **DevOps & Cloud Engineer**.
 
 The portfolio highlights my hands-on work with AWS infrastructure, CI/CD, containerization, infrastructure automation, monitoring, and cloud architecture.
@@ -41,4 +44,3 @@ npm install
 npm run dev
 
 
-<img width="1413" height="794" alt="Screenshot 2026-07-30 at 12 40 22 AM" src="https://github.com/user-attachments/assets/c6440681-cd85-41cd-8996-0d7973d69dca" />
