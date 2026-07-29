@@ -1,16 +1,42 @@
-# React + Vite
+# Dhruv Sharma — DevOps & Cloud Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+A personal portfolio website showcasing my experience, projects, technical skills, and certifications as a **DevOps & Cloud Engineer**.
 
-Currently, two official plugins are available:
+The portfolio highlights my hands-on work with AWS infrastructure, CI/CD, containerization, infrastructure automation, monitoring, and cloud architecture.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Live Portfolio
 
-## React Compiler
+🌐 **[View Portfolio](https://dhruv-shama-portfolio.netlify.app)**
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Featured Work
 
-## Expanding the Oxlint configuration
+- **AWS Hub-and-Spoke Architecture** — Multi-VPC architecture with centralized services, logging, controlled Spoke → Hub → Spoke communication, EC2, Lambda, Fargate, SQS, RDS, and S3.
+- **AWS Serverless Web Application** — Serverless application using Lambda, API Gateway, DynamoDB, Cognito, S3, and CloudFront.
+- **CloudStackOps** — Infrastructure and CI/CD project using Terraform, Jenkins, AWS, Flask, RDS, and MySQL.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+## Tech Stack
+
+**Frontend:** React, Vite, JavaScript, CSS  
+**Cloud & DevOps:** AWS, Docker, Kubernetes, Terraform, Jenkins, Ansible  
+**Observability:** Prometheus, Grafana  
+**Deployment:** GitHub + Netlify
+
+## Features
+
+- Responsive modern UI
+- Interactive project and experience sections
+- AWS architecture visualization
+- Certification previews and verification links
+- Resume integration
+- Interactive animations and hover effects
+- Mobile-friendly navigation
+
+## Deployment
+
+The application is built with **Vite** and hosted on **Netlify**.
+
+The source code is maintained on GitHub and connected to Netlify for continuous deployment. Updates pushed to the main branch automatically trigger a new production build and deployment.
+
+```bash
+npm install
+npm run dev
