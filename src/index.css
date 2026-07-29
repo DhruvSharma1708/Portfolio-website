@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+html,
+body,
+#root {
+  width: 100%;
+  min-height: 100vh;
+}
+
+body {
+  background:
+    radial-gradient(
+      circle at 85% 15%,
+      rgba(100, 255, 218, 0.055),
+      transparent 28%
+    ),
+    radial-gradient(
+      circle at 10% 75%,
+      rgba(56, 139, 253, 0.045),
+      transparent 30%
+    ),
+    linear-gradient(
+      135deg,
+      #081426 0%,
+      #0a192f 45%,
+      #0b1d36 100%
+    );
+
+  background-attachment: fixed;
+
+  color: #ffffff;
+
+  font-family: 'Inter', Arial, sans-serif;
+
+  overflow-x: hidden;
+}
+body::before {
+  content: "";
+
+  position: fixed;
+  inset: 0;
+
+  z-index: -1;
+
+  pointer-events: none;
+
+  background-image:
+    linear-gradient(
+      rgba(100, 255, 218, 0.012) 1px,
+      transparent 1px
+    ),
+    linear-gradient(
+      90deg,
+      rgba(100, 255, 218, 0.018) 1px,
+      transparent 1px
+    );
+
+  background-size: 70px 70px;
+
+  mask-image: linear-gradient(
+    to bottom,
+    transparent,
+    black 15%,
+    black 85%,
+    transparent
+  );
+}
+
+body::before {
+  animation: gridMovement 25s linear infinite;
+}
+
+@keyframes gridMovement {
+  from {
+    background-position: 0 0;
+  }
+
+  to {
+    background-position: 70px 70px;
+  }
+}
+
+button,
+a {
+  font-family: inherit;
+}
