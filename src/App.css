@@ -3191,3 +3191,7 @@ a {
     gap: 18px;
   }
 }
+
+.name-dot {
+  color: #64ffda;
+}

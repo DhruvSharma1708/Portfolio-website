@@ -266,8 +266,9 @@ const handleHeroMouseLeave = (e) => {
       <p className="hero-intro">
       </p>
 
-      <h1>Dhruv Sharma.</h1>
-
+      <h1>
+        Dhruv Sharma<span className="name-dot">.</span>
+      </h1>
       <h2>DevOps & Cloud Engineer</h2>
 
       <p className="hero-description">
